@@ -1,6 +1,7 @@
 import dataset
+import pprint
 
 
 
 if __name__ == "__main__":
-    pass
+    data = dataset.load('2020_NFL_STATS.csv', 13)
